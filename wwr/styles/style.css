@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+.home-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo-link {
+    padding-top: 5px;
+}
+.logo {
+    margin-left: 24px;
+    margin-bottom: 16px;
+}
+.icon {
+    padding-top: 10px;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
-
+}
+#hero-img {
+    width: 100%; 
+    height: auto;
 }
 nav a {
     text-align: center;
     color: #F2F7FA;
     text-decoration: none;
+    padding: 35px;
+
 }
 nav a:hover {
     background-color: #00A8CC;
@@ -24,12 +47,22 @@ nav a:hover {
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     background-color: #FF7A00;
     height: 725px;
 }
 body {
     background-color: #F2F7FA;
+    font-family: 'Cabin', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #0A3D62;
@@ -39,24 +72,44 @@ header {
     background-color: #0A3D62;
     color: #F2F7FA;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #00A8CC;
     color: #F2F7FA;
+    font-size: 18px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0A3D62;
 }
 .msg {
     background-color: #0A3D62;
     color: #F2F7FA;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #F2F7FA;
 }
 .msg p {
     color: #F2F7FA;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #0A3D62;
     color: #F2F7FA;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img   {
+    width: 80px;
+    padding-top: 15px;
 }
 footer a {
     color: #F2F7FA;
